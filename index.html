@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">ARCHI<span>PLY</span></a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="cart-icon" id="cartIcon">
+                <i>🛒</i>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+            <div class="mobile-menu">
+                <i>☰</i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Quality Furniture for Your Dream Home</h1>
+                <p>Discover our collection of beautifully crafted furniture pieces designed to transform your space.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Browse Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="living-room">
+                    <div class="category-img">
+                        <img src="tv-unit-design-in-the-living-room-features-floating-cabinet.jpg" alt="Living Room">
+                    </div>
+                    <div class="category-title">Living Room</div>
+                </div>
+                <div class="category-card" data-category="bedroom">
+                    <div class="category-img">
+                        <img src="maxresdefault.jpg" alt="Bedroom">
+                    </div>
+                    <div class="category-title">Bedroom</div>
+                </div>
+                <div class="category-card" data-category="dining-room">
+                    <div class="category-img">
+                        <img src="country-house-bringing-nature-into-the-built-form-four-corners-the-architects-diary-500x500.webp"
+                            alt="Dining Room">
+                    </div>
+                    <div class="category-title">Dining Room</div>
+                </div>
+                <div class="category-card" data-category="office">
+                    <div class="category-img">
+                        <img src="images.jpg" alt="Office">
+                    </div>
+                    <div class="category-title">Office</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Our Featured Products</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3 class="feature-title">Free Shipping</h3>
+                    <p>We offer free shipping on all orders above $500.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3 class="feature-title">Quality Materials</h3>
+                    <p>All our furniture is made with high-quality, durable materials.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💯</div>
+                    <h3 class="feature-title">30-Day Return</h3>
+                    <p>Not satisfied? Return within 30 days for a full refund.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p class="testimonial-text">"The quality of the furniture exceeded my expectations. I'm really happy
+                        with my purchase and will definitely shop here again!"</p>
+                    <p class="testimonial-author">- Sarah Johnson</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Excellent customer service and quick delivery. The sofa I ordered
+                        perfectly matches my living room decor."</p>
+                    <p class="testimonial-author">- Michael Brown</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"I've been looking for a sturdy desk for my home office for months, and
+                        I finally found the perfect one here. Couldn't be happier!"</p>
+                    <p class="testimonial-author">- Emily Davis</p>
+                </div>
+                <div class="slider-nav">
+                    <div class="slider-dot active" data-index="0"></div>
+                    <div class="slider-dot" data-index="1"></div>
+                    <div class="slider-dot" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="newsletter-title">Join Our Newsletter</h2>
+            <p class="newsletter-desc">Subscribe to get the latest updates on new arrivals, special offers, and more.
+            </p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>ARCHI PLY</h3>
+                    <p>We provide high-quality furniture for your home and office. Our mission is to help you create
+                        spaces that inspire.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">t</a>
+                        <a href="#" class="social-icon">in</a>
+                        <a href="#" class="social-icon">ig</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Shop</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Living Room</a></li>
+                        <li><a href="#">Bedroom</a></li>
+                        <li><a href="#">Dining Room</a></li>
+                        <li><a href="#">Office</a></li>
+                        <li><a href="#">Outdoor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>About Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Store Locations</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 ModernHome Furniture. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be loaded dynamically -->
+            </div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">$0.00</span>
+            </div>
+            <button class="btn" id="checkoutBtn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
